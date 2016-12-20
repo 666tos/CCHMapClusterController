@@ -7,15 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4869F183184FC4CC00251ADC /* CCHNearCenterMapClusterer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4869F182184FC4CC00251ADC /* CCHNearCenterMapClusterer.m */; };
-		4869F186184FD5F100251ADC /* CCHCenterOfMassMapClusterer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4869F185184FD5F100251ADC /* CCHCenterOfMassMapClusterer.m */; };
-		4869F19D1853AA6300251ADC /* CCHFadeInOutMapAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4869F19B18536E6700251ADC /* CCHFadeInOutMapAnimator.m */; };
 		48899955185CE2B000F3D6ED /* QNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889994D185CE2B000F3D6ED /* QNode.m */; };
 		48899956185CE2B000F3D6ED /* QTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 48899950185CE2B000F3D6ED /* QTree.m */; };
 		48899957185CE2B000F3D6ED /* QTreeGeometryUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 48899952185CE2B000F3D6ED /* QTreeGeometryUtils.m */; };
 		4889995A185D175000F3D6ED /* QCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 48899959185D175000F3D6ED /* QCluster.m */; };
-		4889995D185D1C1300F3D6ED /* CCHMapTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889995C185D1C1300F3D6ED /* CCHMapTree.m */; };
-		48899966185E398700F3D6ED /* CCHMapTreeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 48899965185E398700F3D6ED /* CCHMapTreeUtils.m */; };
 		48C419A81873069D00AFA345 /* USA-HotelMotel.csv in Resources */ = {isa = PBXBuildFile; fileRef = 48C419A71873069D00AFA345 /* USA-HotelMotel.csv */; };
 		48C419AA187306D900AFA345 /* Berlin-Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 48C419A9187306D900AFA345 /* Berlin-Data.json */; };
 		48D7B0C8185A679F0071636B /* KPAnnotationTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D7B0C0185A679F0071636B /* KPAnnotationTree.m */; };
@@ -33,9 +28,7 @@
 		6217D6F818BDD97400CDB8C3 /* CCHNearCenterMapClustererTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6217D6EE18BDD97400CDB8C3 /* CCHNearCenterMapClustererTests.m */; };
 		621834EA18A576C5000210AF /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621834E918A576C5000210AF /* SettingsViewController.m */; };
 		621834ED18A6AD25000210AF /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 621834EC18A6AD25000210AF /* Settings.m */; };
-		6222E32918BA61290045A528 /* CCHMapClusterControllerDebugPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6222E32818BA61290045A528 /* CCHMapClusterControllerDebugPolygon.m */; };
 		6284D0191C288C3F00EFCA2E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6284D0181C288C3F00EFCA2E /* Launch Screen.storyboard */; };
-		62C49A7818E75033000BC5CD /* CCHMapClusterOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C49A7718E75033000BC5CD /* CCHMapClusterOperation.m */; };
 		62D667831845E0F20046D5D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D667821845E0F20046D5D5 /* Foundation.framework */; };
 		62D667851845E0F20046D5D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D667841845E0F20046D5D5 /* CoreGraphics.framework */; };
 		62D667871845E0F20046D5D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D667861845E0F20046D5D5 /* UIKit.framework */; };
@@ -51,11 +44,35 @@
 		62D667AC1845E0F20046D5D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62D667AA1845E0F20046D5D5 /* InfoPlist.strings */; };
 		62D667B81845F6D70046D5D5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D667B71845F6D70046D5D5 /* MapKit.framework */; };
 		62D667C11845F76F0046D5D5 /* DataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D667BD1845F76F0046D5D5 /* DataReader.m */; };
-		62D667CE1845F8A40046D5D5 /* CCHMapClusterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D667C61845F8A40046D5D5 /* CCHMapClusterAnnotation.m */; };
-		62D667D01845F8A40046D5D5 /* CCHMapClusterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D667C81845F8A40046D5D5 /* CCHMapClusterController.m */; };
-		62D667D21845F8A40046D5D5 /* CCHMapClusterControllerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D667CB1845F8A40046D5D5 /* CCHMapClusterControllerUtils.m */; };
-		62D667D41845F8A40046D5D5 /* CCHMapViewDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D667CD1845F8A40046D5D5 /* CCHMapViewDelegateProxy.m */; };
 		62D71E11187EB45500E52EE3 /* ClusterAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D71E10187EB45500E52EE3 /* ClusterAnnotationView.m */; };
+		9AB9B3F61E09956200E3A112 /* CCHMapCluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB9B3F41E09956200E3A112 /* CCHMapCluster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB9B3F91E09956200E3A112 /* CCHMapCluster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB9B3F21E09956200E3A112 /* CCHMapCluster.framework */; };
+		9AB9B3FA1E09956200E3A112 /* CCHMapCluster.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB9B3F21E09956200E3A112 /* CCHMapCluster.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9AB9B3FE1E09957500E3A112 /* CCHMapClusterAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D667C51845F8A40046D5D5 /* CCHMapClusterAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB9B3FF1E09957500E3A112 /* CCHMapClusterController.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D667C71845F8A40046D5D5 /* CCHMapClusterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB9B4001E09957500E3A112 /* CCHMapClusterControllerDebugPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6222E32718BA61290045A528 /* CCHMapClusterControllerDebugPolygon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB9B4011E09957500E3A112 /* CCHMapClusterControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D667C91845F8A40046D5D5 /* CCHMapClusterControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB9B4021E09957500E3A112 /* CCHMapClusterControllerUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D667CA1845F8A40046D5D5 /* CCHMapClusterControllerUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB9B4031E09957500E3A112 /* CCHMapClusterOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C49A7618E75033000BC5CD /* CCHMapClusterOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB9B4041E09957500E3A112 /* CCHMapClusterer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4869F180184FC1E700251ADC /* CCHMapClusterer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB9B4051E09957500E3A112 /* CCHNearCenterMapClusterer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4869F181184FC4CC00251ADC /* CCHNearCenterMapClusterer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB9B4061E09957500E3A112 /* CCHCenterOfMassMapClusterer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4869F184184FD5F000251ADC /* CCHCenterOfMassMapClusterer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB9B4071E09957500E3A112 /* CCHMapAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4869F19918536E3000251ADC /* CCHMapAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB9B4081E09957500E3A112 /* CCHFadeInOutMapAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4869F19A18536E6700251ADC /* CCHFadeInOutMapAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB9B4091E09957500E3A112 /* CCHMapViewDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D667CC1845F8A40046D5D5 /* CCHMapViewDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB9B40A1E09957500E3A112 /* CCHMapTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889995B185D1C1300F3D6ED /* CCHMapTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB9B40B1E09957500E3A112 /* CCHMapTreeUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 48899964185E398700F3D6ED /* CCHMapTreeUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB9B40C1E09958200E3A112 /* CCHMapClusterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D667C61845F8A40046D5D5 /* CCHMapClusterAnnotation.m */; };
+		9AB9B40D1E09958200E3A112 /* CCHMapClusterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D667C81845F8A40046D5D5 /* CCHMapClusterController.m */; };
+		9AB9B40E1E09958200E3A112 /* CCHMapClusterControllerDebugPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6222E32818BA61290045A528 /* CCHMapClusterControllerDebugPolygon.m */; };
+		9AB9B40F1E09958200E3A112 /* CCHMapClusterControllerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D667CB1845F8A40046D5D5 /* CCHMapClusterControllerUtils.m */; };
+		9AB9B4101E09958200E3A112 /* CCHMapClusterOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C49A7718E75033000BC5CD /* CCHMapClusterOperation.m */; };
+		9AB9B4111E09958200E3A112 /* CCHNearCenterMapClusterer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4869F182184FC4CC00251ADC /* CCHNearCenterMapClusterer.m */; };
+		9AB9B4121E09958200E3A112 /* CCHCenterOfMassMapClusterer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4869F185184FD5F100251ADC /* CCHCenterOfMassMapClusterer.m */; };
+		9AB9B4131E09958200E3A112 /* CCHFadeInOutMapAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4869F19B18536E6700251ADC /* CCHFadeInOutMapAnimator.m */; };
+		9AB9B4141E09958200E3A112 /* CCHMapViewDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D667CD1845F8A40046D5D5 /* CCHMapViewDelegateProxy.m */; };
+		9AB9B4151E09958200E3A112 /* CCHMapTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889995C185D1C1300F3D6ED /* CCHMapTree.m */; };
+		9AB9B4161E09958200E3A112 /* CCHMapTreeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 48899965185E398700F3D6ED /* CCHMapTreeUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +83,28 @@
 			remoteGlobalIDString = 62D6677E1845E0F20046D5D5;
 			remoteInfo = "CCHMapClusterController Example iOS";
 		};
+		9AB9B3F71E09956200E3A112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62D667771845E0F20046D5D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AB9B3F11E09956200E3A112;
+			remoteInfo = CCHMapCluster;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9AB9B3E11E09944800E3A112 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9AB9B3FA1E09956200E3A112 /* CCHMapCluster.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4869F180184FC1E700251ADC /* CCHMapClusterer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCHMapClusterer.h; sourceTree = "<group>"; };
@@ -150,6 +188,9 @@
 		62D667CD1845F8A40046D5D5 /* CCHMapViewDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHMapViewDelegateProxy.m; sourceTree = "<group>"; };
 		62D71E0F187EB45500E52EE3 /* ClusterAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClusterAnnotationView.h; sourceTree = "<group>"; };
 		62D71E10187EB45500E52EE3 /* ClusterAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClusterAnnotationView.m; sourceTree = "<group>"; };
+		9AB9B3F21E09956200E3A112 /* CCHMapCluster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCHMapCluster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB9B3F41E09956200E3A112 /* CCHMapCluster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCHMapCluster.h; sourceTree = "<group>"; };
+		9AB9B3F51E09956200E3A112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +198,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AB9B3F91E09956200E3A112 /* CCHMapCluster.framework in Frameworks */,
 				62D667B81845F6D70046D5D5 /* MapKit.framework in Frameworks */,
 				62D667851845E0F20046D5D5 /* CoreGraphics.framework in Frameworks */,
 				62D667871845E0F20046D5D5 /* UIKit.framework in Frameworks */,
@@ -171,6 +213,13 @@
 				62D667A21845E0F20046D5D5 /* XCTest.framework in Frameworks */,
 				62D667A41845E0F20046D5D5 /* UIKit.framework in Frameworks */,
 				62D667A31845E0F20046D5D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB9B3EE1E09956200E3A112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +271,7 @@
 				62D667C41845F8A40046D5D5 /* CCHMapClusterController */,
 				62D667881845E0F20046D5D5 /* CCHMapClusterController Example iOS */,
 				62D667A71845E0F20046D5D5 /* CCHMapClusterController Example iOSTests */,
+				9AB9B3F31E09956200E3A112 /* CCHMapCluster */,
 				62D667811845E0F20046D5D5 /* Frameworks */,
 				62D667801845E0F20046D5D5 /* Products */,
 			);
@@ -232,6 +282,7 @@
 			children = (
 				62D6677F1845E0F20046D5D5 /* CCHMapClusterController Example iOS.app */,
 				62D667A01845E0F20046D5D5 /* CCHMapClusterController Example iOSTests.xctest */,
+				9AB9B3F21E09956200E3A112 /* CCHMapCluster.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -348,7 +399,41 @@
 			path = ../CCHMapClusterController;
 			sourceTree = "<group>";
 		};
+		9AB9B3F31E09956200E3A112 /* CCHMapCluster */ = {
+			isa = PBXGroup;
+			children = (
+				9AB9B3F41E09956200E3A112 /* CCHMapCluster.h */,
+				9AB9B3F51E09956200E3A112 /* Info.plist */,
+			);
+			path = CCHMapCluster;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9AB9B3EF1E09956200E3A112 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB9B3F61E09956200E3A112 /* CCHMapCluster.h in Headers */,
+				9AB9B3FE1E09957500E3A112 /* CCHMapClusterAnnotation.h in Headers */,
+				9AB9B3FF1E09957500E3A112 /* CCHMapClusterController.h in Headers */,
+				9AB9B4001E09957500E3A112 /* CCHMapClusterControllerDebugPolygon.h in Headers */,
+				9AB9B4011E09957500E3A112 /* CCHMapClusterControllerDelegate.h in Headers */,
+				9AB9B4021E09957500E3A112 /* CCHMapClusterControllerUtils.h in Headers */,
+				9AB9B4031E09957500E3A112 /* CCHMapClusterOperation.h in Headers */,
+				9AB9B4041E09957500E3A112 /* CCHMapClusterer.h in Headers */,
+				9AB9B4051E09957500E3A112 /* CCHNearCenterMapClusterer.h in Headers */,
+				9AB9B4061E09957500E3A112 /* CCHCenterOfMassMapClusterer.h in Headers */,
+				9AB9B4071E09957500E3A112 /* CCHMapAnimator.h in Headers */,
+				9AB9B4081E09957500E3A112 /* CCHFadeInOutMapAnimator.h in Headers */,
+				9AB9B4091E09957500E3A112 /* CCHMapViewDelegateProxy.h in Headers */,
+				9AB9B40A1E09957500E3A112 /* CCHMapTree.h in Headers */,
+				9AB9B40B1E09957500E3A112 /* CCHMapTreeUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		62D6677E1845E0F20046D5D5 /* CCHMapClusterController Example iOS */ = {
@@ -358,10 +443,12 @@
 				62D6677B1845E0F20046D5D5 /* Sources */,
 				62D6677C1845E0F20046D5D5 /* Frameworks */,
 				62D6677D1845E0F20046D5D5 /* Resources */,
+				9AB9B3E11E09944800E3A112 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9AB9B3F81E09956200E3A112 /* PBXTargetDependency */,
 			);
 			name = "CCHMapClusterController Example iOS";
 			productName = "CCHMapClusterController Example iOS";
@@ -386,6 +473,24 @@
 			productReference = 62D667A01845E0F20046D5D5 /* CCHMapClusterController Example iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		9AB9B3F11E09956200E3A112 /* CCHMapCluster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AB9B3FB1E09956200E3A112 /* Build configuration list for PBXNativeTarget "CCHMapCluster" */;
+			buildPhases = (
+				9AB9B3ED1E09956200E3A112 /* Sources */,
+				9AB9B3EE1E09956200E3A112 /* Frameworks */,
+				9AB9B3EF1E09956200E3A112 /* Headers */,
+				9AB9B3F01E09956200E3A112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCHMapCluster;
+			productName = CCHMapCluster;
+			productReference = 9AB9B3F21E09956200E3A112 /* CCHMapCluster.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -396,10 +501,14 @@
 				ORGANIZATIONNAME = "Claus Höfele";
 				TargetAttributes = {
 					62D6677E1845E0F20046D5D5 = {
-						DevelopmentTeam = KN32D96YCR;
+						DevelopmentTeam = 5WL5VFZSEL;
 					};
 					62D6679F1845E0F20046D5D5 = {
 						TestTargetID = 62D6677E1845E0F20046D5D5;
+					};
+					9AB9B3F11E09956200E3A112 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -418,6 +527,7 @@
 			targets = (
 				62D6677E1845E0F20046D5D5 /* CCHMapClusterController Example iOS */,
 				62D6679F1845E0F20046D5D5 /* CCHMapClusterController Example iOSTests */,
+				9AB9B3F11E09956200E3A112 /* CCHMapCluster */,
 			);
 		};
 /* End PBXProject section */
@@ -444,6 +554,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9AB9B3F01E09956200E3A112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -452,23 +569,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				62D71E11187EB45500E52EE3 /* ClusterAnnotationView.m in Sources */,
-				48899966185E398700F3D6ED /* CCHMapTreeUtils.m in Sources */,
 				62D667991845E0F20046D5D5 /* MapViewController.m in Sources */,
-				4869F19D1853AA6300251ADC /* CCHFadeInOutMapAnimator.m in Sources */,
 				62D667931845E0F20046D5D5 /* AppDelegate.m in Sources */,
-				62D667D41845F8A40046D5D5 /* CCHMapViewDelegateProxy.m in Sources */,
 				621834ED18A6AD25000210AF /* Settings.m in Sources */,
 				62D667C11845F76F0046D5D5 /* DataReader.m in Sources */,
-				62C49A7818E75033000BC5CD /* CCHMapClusterOperation.m in Sources */,
-				62D667D21845F8A40046D5D5 /* CCHMapClusterControllerUtils.m in Sources */,
-				4869F186184FD5F100251ADC /* CCHCenterOfMassMapClusterer.m in Sources */,
-				4889995D185D1C1300F3D6ED /* CCHMapTree.m in Sources */,
-				62D667D01845F8A40046D5D5 /* CCHMapClusterController.m in Sources */,
 				62D6678F1845E0F20046D5D5 /* main.m in Sources */,
 				621834EA18A576C5000210AF /* SettingsViewController.m in Sources */,
-				6222E32918BA61290045A528 /* CCHMapClusterControllerDebugPolygon.m in Sources */,
-				62D667CE1845F8A40046D5D5 /* CCHMapClusterAnnotation.m in Sources */,
-				4869F183184FC4CC00251ADC /* CCHNearCenterMapClusterer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +602,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9AB9B3ED1E09956200E3A112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB9B40F1E09958200E3A112 /* CCHMapClusterControllerUtils.m in Sources */,
+				9AB9B4161E09958200E3A112 /* CCHMapTreeUtils.m in Sources */,
+				9AB9B40E1E09958200E3A112 /* CCHMapClusterControllerDebugPolygon.m in Sources */,
+				9AB9B4141E09958200E3A112 /* CCHMapViewDelegateProxy.m in Sources */,
+				9AB9B4131E09958200E3A112 /* CCHFadeInOutMapAnimator.m in Sources */,
+				9AB9B4111E09958200E3A112 /* CCHNearCenterMapClusterer.m in Sources */,
+				9AB9B40D1E09958200E3A112 /* CCHMapClusterController.m in Sources */,
+				9AB9B40C1E09958200E3A112 /* CCHMapClusterAnnotation.m in Sources */,
+				9AB9B4121E09958200E3A112 /* CCHCenterOfMassMapClusterer.m in Sources */,
+				9AB9B4101E09958200E3A112 /* CCHMapClusterOperation.m in Sources */,
+				9AB9B4151E09958200E3A112 /* CCHMapTree.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -503,6 +627,11 @@
 			isa = PBXTargetDependency;
 			target = 62D6677E1845E0F20046D5D5 /* CCHMapClusterController Example iOS */;
 			targetProxy = 62D667A51845E0F20046D5D5 /* PBXContainerItemProxy */;
+		};
+		9AB9B3F81E09956200E3A112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AB9B3F11E09956200E3A112 /* CCHMapCluster */;
+			targetProxy = 9AB9B3F71E09956200E3A112 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -624,10 +753,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5WL5VFZSEL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CCHMapClusterController Example iOS/CCHMapClusterController Example iOS-Prefix.pch";
 				INFOPLIST_FILE = "CCHMapClusterController Example iOS/CCHMapClusterController Example iOS-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.claushoefele.${PRODUCT_NAME:rfc1034identifier}";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikita.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -641,11 +772,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5WL5VFZSEL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CCHMapClusterController Example iOS/CCHMapClusterController Example iOS-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "CCHMapClusterController Example iOS/CCHMapClusterController Example iOS-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.claushoefele.${PRODUCT_NAME:rfc1034identifier}";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikita.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -684,6 +817,61 @@
 			};
 			name = Release;
 		};
+		9AB9B3FC1E09956200E3A112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = CCHMapCluster/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngti.CCHMapCluster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9AB9B3FD1E09956200E3A112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = CCHMapCluster/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngti.CCHMapCluster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -713,6 +901,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		9AB9B3FB1E09956200E3A112 /* Build configuration list for PBXNativeTarget "CCHMapCluster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB9B3FC1E09956200E3A112 /* Debug */,
+				9AB9B3FD1E09956200E3A112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
